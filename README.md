@@ -1,8 +1,8 @@
-# Appnet
+# AppNets
 An Efficient Multi-Task Fusion Network for Panoptic Driving Perception 
 
 # The Illustration of AppNet
-![Uploading image.png…]()
+![image](https://github.com/user-attachments/assets/5e65acd1-bd23-4af4-b248-1cc98ba3714e)
 
 
 # Contributions
@@ -13,11 +13,33 @@ An Efficient Multi-Task Fusion Network for Panoptic Driving Perception
 
 # Results
 ## Traffic object detection results on SDExpressway and BDD100k datasets.
-![9ffce276f3b2357c6b3b0bc91f69be6](https://github.com/user-attachments/assets/fcf05011-2231-4101-918b-81846325efcd)
+### BDD100K
+|Model          | Recall(%) | mAP50(%) | Speed(fps) |
+| ------------- | --------- | -------- | ---------- |
+| `YOLOP`       | 89.9      |76.3     | 223        |
+| `MultiNet`      | 81.3      | 60.2     | 51     |
+| `DLT-Net`     | 89.4     | 68.4       |56|  
+| `HybridNets`      |91.2      | 79.0    | 220      |
+| `AppNet(ours)`  | 91.7     | 79.5     | 200        
+### SDExpressway
+|Model          | Recall(%) | mAP50(%) | Speed(fps) |
+| ------------- | --------- | -------- | ---------- |
+| `YOLOP`       | 92.1      |77.7     | 231        |
+| `HybridNets`      |93.9      | 78.7    | 200      |
+| `AppNet(ours)`  | 95.5     | 85.1     | 181        |
 ## Performance comparison on lane line segment task.
-![30ef9203bcc39fbfe0a16968ff29eaf](https://github.com/user-attachments/assets/5a738182-210d-4fc4-8adc-65666d3b3605)
+### SDExpressway
+|Model          | Acc(%) | Iou(%) | 
+| ------------- | --------- | -------- | 
+| `YOLOP`       | 90.4      |74.0     |
+| `HybirdNets`       | 90.8     |74.3     |
+| `AppNet(ours)`  | 90.6    | 75.1     |
 ## Performance comparison on drivable area segment task.
-![59c7f0caad8f9cce64df8e6327ab407](https://github.com/user-attachments/assets/7ed2163e-8d68-4da8-9b6a-c9daa4d4eeb2)
+|Model          | Acc(%) | mIou(%) | 
+| ------------- | --------- | -------- | 
+| `YOLOP`       | 98.9      |97.0     |
+| `HybirdNets`       | 98.7     |97.2|
+| `AppNet(ours)`  | 99.2    | 98.7    |
 ## Comparison Experiments of Different Attention Modules
 ![8fdd4ee19b6df6a2c48d3e112b96951](https://github.com/user-attachments/assets/977ee82f-4a9f-4a06-a78c-4dbbddee5627)
 ## Comparison Experiments of Different SPPF Modules
