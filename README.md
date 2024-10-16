@@ -1,7 +1,7 @@
 # AppNets
 An Efficient Multi-Task Fusion Network for Panoptic Driving Perception 
 
-# The Illustration of AppNet
+# The Illustration of AppNets
 ![image](https://github.com/user-attachments/assets/5e65acd1-bd23-4af4-b248-1cc98ba3714e)
 
 
@@ -9,7 +9,6 @@ An Efficient Multi-Task Fusion Network for Panoptic Driving Perception
 •	AppNets: An end-to-end perception network achieving real-time performance on the BDD100K and SDExpressway datasets.
 •	Enhanced Dataset: Augmentation of the SDExpressway dataset.
 •	Effective Training Loss Function and Strategy: Balanced and optimized multitask network training.
-![image](https://github.com/user-attachments/assets/a717429f-fd0e-4174-819f-ea3a511cc8a9)
 
 # Results
 ## Traffic object detection results on SDExpressway and BDD100k datasets.
@@ -53,7 +52,7 @@ An Efficient Multi-Task Fusion Network for Panoptic Driving Perception
 ![image](https://github.com/user-attachments/assets/1d35089c-5252-4786-819c-3966e90f4de7),![image](https://github.com/user-attachments/assets/817fb59f-d91d-42e3-86e1-b336677163ee),![image](https://github.com/user-attachments/assets/49130b86-259c-40c2-bdaf-39b9349b441a)
 
 ##  multitask visualization detection results
-![image](https://github.com/user-attachments/assets/dc27f2e5-8942-48e3-852e-706636701c3e),![image](https://github.com/user-attachments/assets/fc99878c-a41e-41c4-aaf1-a230eaef8148)
+![image](https://github.com/user-attachments/assets/dc27f2e5-8942-48e3-852e-706636701c3e),![image](https://github.com/user-attachments/assets/fc99878c-a41e-41c4-aaf1-a230eaef8148),![image](https://github.com/user-attachments/assets/a717429f-fd0e-4174-819f-ea3a511cc8a9)
 
 
 
