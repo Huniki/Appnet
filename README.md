@@ -10,8 +10,25 @@ An Efficient Multi-Task Fusion Network for Panoptic Driving Perception
 •	Enhanced Dataset: Augmentation of the SDExpressway dataset.
 •	Effective Training Loss Function and Strategy: Balanced and optimized multitask network training.
 
-## download
-•	SDExpressway
+## Requirements
+scipy
+tqdm
+yacs
+Cython
+matplotlib>=3.2.2
+numpy>=1.18.5
+opencv-python>=4.1.2
+Pillow
+PyYAML>=5.3
+scipy>=1.4.1
+tensorboardX
+seaborn
+prefetch_generator
+imageio
+scikit-learn
+
+## Download
+•	[SDExpressway](https://pan.baidu.com/s/1opk9K0P--n7YhQOKASMzgA?pwd=dvh7 )
 ## Results
 ### Traffic object detection results on SDExpressway and BDD100k datasets.
 #### BDD100K
