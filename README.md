@@ -12,7 +12,6 @@ An Efficient Multi-Task Fusion Network for Panoptic Driving Perception
 
 ## download
 •	SDExpressway
-
 ## Results
 ### Traffic object detection results on SDExpressway and BDD100k datasets.
 #### BDD100K
